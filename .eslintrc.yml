@@ -4,3 +4,5 @@ extends:
   - plugin:@typescript-eslint/recommended-requiring-type-checking
 parserOptions:
   project: ./tsconfig.json
+rules:
+  no-shadow: 0
