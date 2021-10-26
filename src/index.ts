@@ -1,5 +1,5 @@
 export interface AbortableFetch {
-  about: () => void;
+  abort: () => void;
   ready: Promise<Response>;
 }
 
