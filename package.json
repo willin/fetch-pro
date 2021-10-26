@@ -1,0 +1,56 @@
+{
+  "name": "fetch-pro",
+  "version": "0.0.1",
+  "description": "Elegant Fetch Lib with Power",
+  "module": "dist/index.js",
+  "main": "dist/index.cjs.js",
+  "unpkg": "dist/index.browser.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint --ext .js,.ts,.vue src/",
+    "test": "jest",
+    "prepare": "husky install",
+    "prepublishOnly": "conventional-changelog -p angular -i CHANGELOG.md -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willin/fetch-pro.git"
+  },
+  "keywords": [
+    "fetch",
+    "abort",
+    "cancel",
+    "signal"
+  ],
+  "author": "Willin Wang <willin@willin.org> (https://github.com/willin)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/willin/fetch-pro/issues"
+  },
+  "homepage": "https://github.com/willin/fetch-pro#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^13.2.1",
+    "@commitlint/config-conventional": "^13.2.0",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@willin/eslint-config": "^0.0.6",
+    "conventional-changelog-cli": "^2.1.1",
+    "eslint": "^8.1.0",
+    "eslint-plugin-import": "^2.25.2",
+    "husky": "^7.0.4",
+    "lint-staged": "^11.2.4",
+    "prettier": "^2.4.1",
+    "rollup": "^2.58.3",
+    "rollup-plugin-terser": "^7.0.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  },
+  "lint-staged": {
+    "*.{js,ts}": [
+      "prettier --write",
+      "eslint --fix"
+    ]
+  }
+}
