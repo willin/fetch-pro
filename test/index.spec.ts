@@ -25,3 +25,10 @@ test(FetchType.Prevent, async () => {
   const result = await client.ready;
   expect(result?.status).toBe(200);
 });
+
+test(`${FetchType.Prevent} abort`, async () => {
+  const client = new FetchPro(FetchType.Prevent);
+  client.fetch(url(200, 500));
+  client.abort();
+  expect(client.ready).toMatchObject({});
+});
