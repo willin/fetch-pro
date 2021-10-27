@@ -5,6 +5,12 @@ module.exports = {
   preset: 'ts-jest',
   verbose: true,
   coverageReporters: ['text', 'lcov', 'html'],
-  testMatch: ['**/__tests__/**/*.(spec|test).[jt]s?(x)'],
-  coveragePathIgnorePatterns: ['/node_modules/', '/__tests__/']
+  testMatch: ['**/test/**/*.(spec|test).[jt]s?(x)'],
+  coveragePathIgnorePatterns: ['/node_modules/', '/test/'],
+  testTimeout: 6e4,
+  globals: {
+    'ts-jest': {
+      tsconfig: 'tsconfig.base.json'
+    }
+  }
 };
