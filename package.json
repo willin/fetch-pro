@@ -1,6 +1,6 @@
 {
   "name": "fetch-pro",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Elegant Fetch Lib with Power",
   "module": "dist/index.js",
   "main": "dist/index.cjs.js",
