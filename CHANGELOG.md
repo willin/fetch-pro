@@ -1,3 +1,12 @@
+## [0.0.4](https://github.com/willin/fetch-pro/compare/v0.0.3...v0.0.4) (2021-11-03)
+
+
+### Bug Fixes
+
+* :truck: fix iife name ([8bb7901](https://github.com/willin/fetch-pro/commit/8bb790178d15b00d1bfaec86904fe12829e117e4))
+
+
+
 ## 0.0.1 (2021-10-26)
 
 ### Bug Fixes
