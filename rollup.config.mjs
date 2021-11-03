@@ -21,7 +21,7 @@ export default [
       {
         file: 'dist/index.browser.js',
         format: 'iife',
-        name: 'uua'
+        name: 'fetchPro'
       }
     ],
     plugins: [typescript()]
