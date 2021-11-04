@@ -30,6 +30,14 @@ async function demo() {
 }
 ```
 
+Examples:
+
+- [Vanilla JS](https://codepen.io/willin/pen/oNepLpW)
+- [Vanilla TS](https://stackblitz.com/edit/typescript-7trtwm?devtoolsheight=33&file=index.ts)
+- [Vue 3](https://stackblitz.com/edit/vue-4m33cb?devtoolsheight=33&file=src/App.vue)
+- React `TBD`
+- Angular `TBD`
+
 ### FetchPro
 
 FetchType:
@@ -57,6 +65,14 @@ async function demo() {
   client.abort();
 }
 ```
+
+Examples:
+
+- Vanilla JS `TBD`
+- Vanilla TS `TBD`
+- Vue 3 `TBD`
+- React `TBD`
+- Angular `TBD`
 
 ## LICENSE
 
