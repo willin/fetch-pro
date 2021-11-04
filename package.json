@@ -2,9 +2,9 @@
   "name": "fetch-pro",
   "version": "0.0.4",
   "description": "Elegant Fetch Lib with Power",
+  "unpkg": "dist/index.browser.js",
   "module": "dist/index.js",
   "main": "dist/index.cjs.js",
-  "unpkg": "dist/index.browser.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c",
